@@ -1,0 +1,11 @@
+let contadorDeVueltas = 1;
+let vuelta1 = Number(prompt("Tiempo de vuelta" + contadorDeVueltas));
+contadorDeVueltas++;
+let vuelta2 = Number(prompt("Tiempo de vuelta" + contadorDeVueltas));
+contadorDeVueltas++;
+let vuelta3 = Number(prompt("Tiempo de vuelta" + contadorDeVueltas));
+contadorDeVueltas++;
+let vuelta4 = Number(prompt("Timepo de vuelta" + contadorDeVueltas));
+let tiempoTotal = vuelta1 + vuelta2 + vuelta3 + vuelta4;
+console.log("El tiempo total fue de:  " + tiempoTotal);
+console.log("El promedio de vuelta fue de: " + tiempoTotal / contadorDeVueltas);
